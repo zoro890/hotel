@@ -1,0 +1,26 @@
+.ohw{
+    display: flex;
+    margin-top: 5%;
+}
+.img{
+    margin-left: 40%;
+}
+.text{
+    /* padding-left: 20%; */
+}
+.taxi{
+    display: flex;
+    margin: 10%;
+}
+.ht-xt{
+ margin: 3%;
+}
+.tx-ht{
+    margin-left: 20%;
+}
+.car{
+    margin-left: 15%;
+}
+h2{
+    padding-left: 1%;
+}
