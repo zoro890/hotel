@@ -1,0 +1,26 @@
+.navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.134);
+    background-color: rgba(242, 242, 242, 0.175) !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+}
+.mid-part a::after {
+    content: '';
+    display: block;
+    background-color: #100c0b;
+   
+    height: .2rem;
+    width: 0%;
+    transition: all .4s;
+}
+.mid-part a:hover::after {
+    width: 100%;
+    background-color: #8d4827;
+}
+.collapse{
+    margin-left: 20%;
+}
+.nav-link{
+    
+}

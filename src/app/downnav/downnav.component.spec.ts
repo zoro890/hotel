@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TaxiComponent } from './taxi.component';
+import { DownnavComponent } from './downnav.component';
 
-describe('TaxiComponent', () => {
-  let component: TaxiComponent;
-  let fixture: ComponentFixture<TaxiComponent>;
+describe('DownnavComponent', () => {
+  let component: DownnavComponent;
+  let fixture: ComponentFixture<DownnavComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [TaxiComponent]
+      declarations: [DownnavComponent]
     });
-    fixture = TestBed.createComponent(TaxiComponent);
+    fixture = TestBed.createComponent(DownnavComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

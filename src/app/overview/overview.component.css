@@ -8,7 +8,9 @@ h1{
 }
 
 .card{
-   background-color: rgb(190, 170, 209);
+    background-color: rgba(230, 230, 230, 0.279) !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 .text{
     padding: 50px;
@@ -18,4 +20,7 @@ h1{
 }
 .card{
     margin: 2%;
+}
+.card-bk{
+   background-color: rgba(195, 140, 240, 0.406);
 }

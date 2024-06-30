@@ -1,0 +1,36 @@
+.btn{
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+.bg-img{
+    width: 98vw;
+    height: 100vh;
+    background-image: url(../../assets/image/room.jpg);
+    /* background-color: antiquewhite; */
+   
+}
+h1{
+    padding-top: 20%;
+    padding-left: 35%;
+}
+.base-nav{
+    margin-top: 25%;
+    
+}
+.drop{
+   padding-left: 15%;
+}
+.bg-color{
+    scrollbar-highlight-color: bisque;
+}
+.card{
+   margin-left: 0%;
+}
+
+.container{
+    background-color: aliceblue;
+    display: flow-root;
+    margin-left: 3.5%;
+}

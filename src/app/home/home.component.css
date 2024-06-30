@@ -1,11 +1,54 @@
 h1{
-    margin-left: 550px;
-    padding-top: 5%;
+    margin-left: 500px;
+   height:50px
+    ;
+    /* background-color: #f3ebeb35; */
+    display: flex;
+    align-items: center;
+    justify-content: top;
+
+}
+.button{
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+.button{
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 2em;
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px
+    rgba(225, 225, blu225e, 0.6);
+    
+}
+.hover-text{
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: #37ff8b;
+    width: 0%;
+    inset: 0;
+    border-right: 6px solid #37ff8b;
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px #298550;
+}
+.button:hover .hover-text{
+    width: 100px;
+    filter: drop-shadow(0 0 23px #37ff8b);
 }
 .bg-img{
-    width: 100vw;
+    width: 96.5vw;
     height: 100vh;
-    background-image: url("../../assets/image/room.jpg");
+    /* background-image: url("../../assets/image/room.jpg"); */
+    background-color: #3e3e3e5c;
+    
 }
 h2{
     text-align:center;
@@ -14,17 +57,50 @@ h2{
     /* text-overflow: inherit; */
     
 }
+.bed{
+    background-color: rgba(172, 252, 225, 0.25);
+}
+.btn{
+    background-color: rgba(251, 251, 251, 0.458) !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
 .card{
-   
-   
+    background-color: rgba(255, 255, 255, 0) ;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin-left: 60px;
+    /* z-index: 2;
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);     */
 }
 .card-body{
    /* width: 25%; */
+   background-color: rgba(255, 255, 255, 0.22) !important;
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+   font-size: 15px;
 }
 .all-cards{
     display:flex ;
     margin-top: 5%;
-    margin-left: 16%;
+    margin-left: 15%;
+    /* margin: 0;
+    background: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 30px; */
+    
 }
 .text{
     margin-top: 10px;
@@ -38,9 +114,14 @@ h6{
 }
 .ht-text{
     padding-left: 5%;
+    padding-right: 30%;
+}
+.card-img{
+    display: flex;
+    margin-left: 30px;
 }
 .img-card{
-    padding-top:30px;
+   margin-top: 20px;
     display: flex;
 }
 .img-ht{
@@ -48,7 +129,9 @@ padding-left: 25%;
     
 }
 .text-ht{
-   padding-left: 3%;
+   padding: 3%;
+   padding-left: 13%;
+   padding-right: 30px;
 }
 .carousel-item{
     margin-left: 12%;
@@ -66,4 +149,17 @@ padding-left: 25%;
 .card-btn{
     /* display: flex; */
     padding-left: 60%;
+}
+.img{
+    display: flex;
+    padding: 2%;
+}
+.md-btn{
+    margin: 14px;
+}
+.video{
+    width: 500px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 250px;
 }

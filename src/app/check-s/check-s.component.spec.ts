@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ScreenComponent } from './screen.component';
+import { CheckSComponent } from './check-s.component';
 
-describe('ScreenComponent', () => {
-  let component: ScreenComponent;
-  let fixture: ComponentFixture<ScreenComponent>;
+describe('CheckSComponent', () => {
+  let component: CheckSComponent;
+  let fixture: ComponentFixture<CheckSComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ScreenComponent]
+      declarations: [CheckSComponent]
     });
-    fixture = TestBed.createComponent(ScreenComponent);
+    fixture = TestBed.createComponent(CheckSComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
